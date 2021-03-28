@@ -457,7 +457,32 @@ footer p{
         margin: 0;
         width: 10px;
         
-    } 
+    }
+    
+    .features .col-lg-6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .features i{
+        margin: 0 auto;
+    }
+
+    .features .feature-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .features .feature-text p{
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 1199.98px) {
