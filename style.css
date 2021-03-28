@@ -70,6 +70,7 @@ header .navbar .nav-link:hover{
 .features p{
     color: #b5b5bf;
     font-family: 'Open Sans', sans-serif;
+    width: 50%;
 }
 
 .features i{
@@ -223,8 +224,13 @@ header .navbar .nav-link:hover{
     min-height: 15vh;
 }
 
+.subscribe .form{
+    display: flex;
+    float: right;
+}
+
 .subscribe input{
-    width: 40%;
+    width: 100%;
 }
 
 .presp{
@@ -312,9 +318,153 @@ footer p{
 }
 
 
+@media (max-width:485px) {
+
+    .banner{
+        min-height: 40vh;
+    }
+
+    .banner h1{
+        text-align: center;
+    }
+
+    .banner p{
+        display: none;
+    }
+
+    .banner .col-lg-5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe .form input{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+    .features .col-lg-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features i, h4, p{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .our-work nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-blog p{
+        text-align: left;
+    }
+
+    .presp h2{
+        font-size: 18px;
+    }
+
+    .presp p{
+        width: 100%;
+    }
+
+    .subscribe .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .about .socials{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    footer .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+
+    .features p{
+        width: 100%;
+    }
+
+    .acept h3{
+        text-align: center;
+    }
+
+    .acept p{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .acept div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+    }
+    .acept .buttons a{
+        margin-bottom: 5px;
+    }
+
+    .subscribe h2{
+        text-align: center;
+    }
+
+    .subscribe .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        float: none;
+    }
+
+    .subscribe input{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+
+}
+
 @media (max-width: 991.98px) { 
+    
+    header  {
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+        
+    }
+    
     header .navbar .nav-link{
         margin: 0;
         width: 10px;
-    }
+        
+    } 
 }
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 1399.98px) {
+
+}
+
